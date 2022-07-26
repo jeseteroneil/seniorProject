@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content ="ie=edge" />
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <br>
+  <br>
+<h1 name ="titleHeader" id="titleHeader">Contact Us</h1>
+<p> If you have any questions or concerns please feel free to email us.
+  Our response time is typically 1 business day. If this is a urgent matter please select urgent under priority selection. </p>
+<form action ="mail.php" method="POST">
+    <table>
+      <tr><select required autofocus name="emailPriorityType" id ="emailPriorityType">
+        <option value="routine">Routine</option>
+        <option value="Urgent">Urgent</option>
+      </select></tr>
+      <tr>
+        <td>Name:</td><td><input type="text" name="name" placeholder="Your Name Here"/></td><br>
+      </tr>
+      <tr>
+        <td>Email:</td><td><input type="email" name="emailContact" placeholder="youremail@gmail.com"/></td><br>
+    </table>
+    <textarea name="message" class="feedback-input" placeholder="Type Message Here"></textarea>
+    <input type="submit" value="Send" name="sendEmailBtn" id="sendEmailBtn">
+  </form>
+
+  <h6 name="footer" id="footer">
+    <a href="index.html"><button class="Button"> Home Page</button></a>
+    <a href="contact.html"><button class="Button">Contact Us</button></a>
+    <a href ="https://suicidepreventionlifeline.org/"><button class="Button">Suicide Help</button></a>
+    <a href ="https://www.samhsa.gov/find-help/national-helpline"><button class="Button">Mental Health Services</button></a>
+  </h6>
+</body>
+</html>

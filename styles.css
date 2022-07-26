@@ -1,0 +1,149 @@
+
+
+body
+{
+  font-family: sans-serif;
+  background:black;
+  font-size:medium;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: 0;
+}
+
+h1
+{
+  text-align: center ;
+  margin: 0;
+  background-image: url("img/bubble1.jfif");
+  color:whitesmoke;
+  background-position: 50%;
+  background-size: auto;
+  height:130px;
+}
+
+h2{ 
+  color: whitesmoke;
+}
+
+section{
+  position: relative;
+  width: auto;
+  padding:50px;
+}
+
+.image{
+  position: relative;
+  overflow:hidden;
+}
+
+.image.image1
+{
+  width:400px;
+  height:400px;
+  float: left;
+  border-radius: 50%;
+  margin:20px;
+  shape-outside:circle();
+}
+
+.image.image2
+{
+  width:300px;
+  height:300px;
+  float: right;
+  border-radius: 50%;
+  margin:20px;
+  shape-outside: circle();
+}
+
+.image img{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+
+}
+
+section p{
+color:skyblue;
+line-height:1.05em;
+text-align: justify;
+
+}
+
+#footer{display:block;
+  margin:0;
+  text-align: center;
+  font-family:sans-serif;
+  font-weight: bold;
+  color:white;
+  position: fixed;
+  left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    bottom:0;
+    padding-top: 25px;
+
+}
+
+.linkButton {
+  background-color:black;
+  border: none;
+  color: skyblue;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.registerButton {
+  background-color:black;
+  border:darkblue;
+  color: skyblue;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.loginButton {
+  background-color:black;
+  border: darkblue;
+  color: skyblue;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+#form {
+  position: relative;
+  z-index: 10;
+  width: 300px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+  color:skyblue;
+}

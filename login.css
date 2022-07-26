@@ -1,0 +1,105 @@
+
+#titleHeader
+{
+  margin:0;
+  background-color:rgb(0, 155, 201);
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+    padding: 20px;
+}
+
+body{
+font-family: sans-serif;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+font-weight: bold;
+background-color:black;
+color:skyblue;
+}
+
+
+.Button {
+  background-color:black;
+  border: darkblue;
+  color: skyblue;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+#footer{display:block;
+  margin:0;
+  background-color:rgb(0, 155, 201);
+  text-align: center;
+  font-family:sans-serif;
+  font-weight: bold;
+  color:white;
+  position: fixed;
+  bottom:0;
+  height: 70px;
+  width: 100%;padding-top: 25px;
+}
+
+
+#sendEmailBtn{
+    background-color:rgb(0, 155, 201);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+    display:inline-block;
+}
+
+.feedback-input {
+    color:black;
+    font-family: sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 15px;
+    background-color: transparent;
+    padding: 13px;
+    margin:0;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;;
+
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+h1
+{
+  text-align: center ;
+  margin: 0;
+  background-image: url("img/bubble1.jfif");
+  color:black;
+  background-position: 50%;
+  background-size: auto;
+  height:100px;
+}
